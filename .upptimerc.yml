@@ -1,5 +1,6 @@
 owner: sista-ai
 repo: ai-employee-status
+user-agent: sista-ai
 
 sites:
   - name: Platform
@@ -10,20 +11,30 @@ sites:
     url: https://api.work.sista.ai/api/server-info/
     icon: https://work.sista.ai/global-assets/logo/sista-logo.png
 
-  - name: Workflows
-    url: https://temporal.work.sista.ai
+  - name: Website
+    url: https://www.sista.ai
     icon: https://work.sista.ai/global-assets/logo/sista-logo.png
+
+assignees:
+  - Mahmoudz
 
 status-website:
   cname: status.work.sista.ai
   name: Sista AI Status
-  theme: light
+  theme: dark
   logoUrl: https://work.sista.ai/global-assets/logo/sista-logo.png
+  favicon: https://work.sista.ai/global-assets/logo/sista-logo.png
   navbar:
+    - title: Status
+      href: /
     - title: Platform
       href: https://work.sista.ai
+    - title: Website
+      href: https://www.sista.ai
     - title: Support
       href: https://www.sista.ai/support.html
+  introTitle: "**Sista AI** System Status"
+  introMessage: Real-time monitoring of Sista AI services. If you are experiencing issues, please check below for current status and incident reports.
 
 workflowSchedule:
   graphs: "0 0 * * *"
@@ -35,9 +46,8 @@ workflowSchedule:
   uptime: "*/10 * * * *"
 
 i18n:
-  activeIncidents: Active incidents
-  allSystemsOperational: All systems operational
-  incidentReport: Incident report for {0}
-  pastIncidents: Past incidents
-  subscribeBySvg: Subscribe via SVG
-  footer: Powered by [Upptime](https://github.com/upptime/upptime)
+  activeIncidents: Active Incidents
+  allSystemsOperational: All Systems Operational
+  incidentReport: "Incident Report for {0}"
+  pastIncidents: Past Incidents
+  footer: "Powered by [Upptime](https://github.com/upptime/upptime)"
