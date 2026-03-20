@@ -11,10 +11,6 @@ sites:
     url: https://api.work.sista.ai/api/server-info/
     icon: https://work.sista.ai/global-assets/logo/sista-logo.png
 
-  - name: Website
-    url: https://www.sista.ai
-    icon: https://work.sista.ai/global-assets/logo/sista-logo.png
-
 assignees:
   - Mahmoudz
 
@@ -29,8 +25,6 @@ status-website:
       href: /
     - title: Platform
       href: https://work.sista.ai
-    - title: Website
-      href: https://www.sista.ai
     - title: Support
       href: https://www.sista.ai/support.html
   introTitle: "**Sista AI** System Status"
