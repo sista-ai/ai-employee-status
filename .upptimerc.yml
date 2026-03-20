@@ -1,0 +1,43 @@
+owner: sista-ai
+repo: ai-employee-status
+
+sites:
+  - name: Platform
+    url: https://work.sista.ai
+    icon: https://work.sista.ai/global-assets/logo/sista-logo.png
+
+  - name: API
+    url: https://api.work.sista.ai/api/server-info/
+    icon: https://work.sista.ai/global-assets/logo/sista-logo.png
+
+  - name: Workflows
+    url: https://temporal.work.sista.ai
+    icon: https://work.sista.ai/global-assets/logo/sista-logo.png
+
+status-website:
+  cname: status.work.sista.ai
+  name: Sista AI Status
+  theme: light
+  logoUrl: https://work.sista.ai/global-assets/logo/sista-logo.png
+  navbar:
+    - title: Platform
+      href: https://work.sista.ai
+    - title: Support
+      href: https://www.sista.ai/support.html
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "*/10 * * * *"
+  uptime: "*/10 * * * *"
+
+i18n:
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems operational
+  incidentReport: Incident report for {0}
+  pastIncidents: Past incidents
+  subscribeBySvg: Subscribe via SVG
+  footer: Powered by [Upptime](https://github.com/upptime/upptime)
