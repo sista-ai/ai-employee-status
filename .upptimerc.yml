@@ -19,7 +19,7 @@ assignees:
   - Mahmoudz
 
 status-website:
-  cname: status.work.sista.ai
+  cname: status.sista.ai
   name: Sista AI Status
   theme: dark
   logoUrl: https://work.sista.ai/global-assets/logo/sista-logo.png
