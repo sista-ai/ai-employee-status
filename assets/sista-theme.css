@@ -1,18 +1,49 @@
+/*
+ * Sista AI Status Page Theme
+ *
+ * Dark theme for Upptime (https://github.com/upptime/upptime).
+ * Variables must match those consumed by Upptime's global.css.
+ * Reference: https://github.com/upptime/status-page/blob/master/static/global.css
+ */
+
 :root {
+  /* Page */
   --body-background-color: #1e242e;
   --body-text-color: #f0f2f5;
-  --card-background-color: #262d38;
+
+  /* Navigation */
   --nav-background-color: #1e242e;
   --nav-border-bottom-color: #3d4654;
-  --nav-text-color: #f0f2f5;
-  --nav-active-color: #5a6cf6;
-  --link-color: #a3b5ff;
-  --tag-background-color: #2e3642;
-  --tag-text-color: #a3b5ff;
-  --status-up-color: #4ade80;
-  --status-down-color: #f04f4f;
-  --status-degraded-color: #fbbf24;
-  --graph-color: #5a6cf6;
-  --graph-background-color: rgba(90, 108, 246, 0.1);
-  --border-color: #3d4654;
+  --nav-current-border-bottom-color: #5a6cf6;
+
+  /* Cards */
+  --card-background-color: #262d38;
+  --card-border-color: #3d4654;
+
+  /* Status: up / degraded / down */
+  --up-border-left-color: #4ade80;
+  --degraded-border-left-color: #fbbf24;
+  --down-border-left-color: #f04f4f;
+  --down-background-color: #3b1420;
+
+  /* Tags (status badges) */
+  --tag-color: #f0f2f5;
+  --tag-up-background-color: #22804a;
+  --tag-down-background-color: #c03030;
+  --tag-degraded-background-color: #b8860b;
+
+  /* Incident change marker */
+  --change-background-color: #fbbf24;
+
+  /* Buttons */
+  --error-button-border-color: #4553b5;
+  --error-button-background-color: #5a6cf6;
+  --error-button-color: #ffffff;
+  --submit-button-border-color: #4553b5;
+  --submit-button-background-color: #5a6cf6;
+  --submit-button-color: #ffffff;
+
+  /* Response-time graphs */
+  --graph-opacity: 1;
+  --graph-filter: none;
 }
