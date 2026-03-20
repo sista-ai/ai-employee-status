@@ -17,7 +17,8 @@ assignees:
 status-website:
   cname: status.sista.ai
   name: Sista AI Status
-  themeUrl: https://status.sista.ai/sista-theme.css
+  theme: dark
+  css: "body { --body-background-color: #1e242e; } .nav { background-color: #1e242e; border-bottom-color: #3d4654; } a { color: #a3b5ff; }"
   logoUrl: https://work.sista.ai/global-assets/logo/sista-logo.png
   favicon: https://work.sista.ai/global-assets/logo/sista-logo.png
   navbar:
