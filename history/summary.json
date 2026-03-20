@@ -34,23 +34,5 @@
     "timeMonth": 2438,
     "timeYear": 2438,
     "dailyMinutesDown": {}
-  },
-  {
-    "name": "Website",
-    "url": "https://www.sista.ai",
-    "icon": "https://work.sista.ai/global-assets/logo/sista-logo.png",
-    "slug": "website",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 141,
-    "timeDay": 141,
-    "timeWeek": 141,
-    "timeMonth": 141,
-    "timeYear": 141,
-    "dailyMinutesDown": {}
   }
 ]
