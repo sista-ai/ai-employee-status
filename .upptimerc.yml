@@ -27,7 +27,7 @@ status-website:
     - title: Platform
       href: https://work.sista.ai
     - title: Support
-      href: https://www.sista.ai/support.html
+      href: https://work.sista.ai/en/support
   introTitle: "**Sista AI** System Status"
   introMessage: Real-time monitoring of Sista AI services. If you are experiencing issues, please check below for current status and incident reports.
 
