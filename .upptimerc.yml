@@ -40,6 +40,10 @@ workflowSchedule:
   updates: "*/10 * * * *"
   uptime: "*/10 * * * *"
 
+notifications:
+  - type: email
+    to: admin@sista.ai
+
 i18n:
   activeIncidents: Active Incidents
   allSystemsOperational: All Systems Operational
