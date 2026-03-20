@@ -6,9 +6,11 @@ on:
 jobs:
   graphs:
     runs-on: ubuntu-latest
+    env:
+      GH_PAT: ${{ secrets.GH_PAT }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: upptime/uptime-monitor@v1.41.0
         with:
-          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           command: graphs
