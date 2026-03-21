@@ -1,7 +1,7 @@
 url: https://api.work.sista.ai/api/server-info/
-status: up
-code: 200
-responseTime: 2475
-lastUpdated: 2026-03-20T23:31:18.650Z
+status: down
+code: 503
+responseTime: 506
+lastUpdated: 2026-03-21T20:57:50.222Z
 startTime: 2026-03-20T15:17:16.195Z
 generator: Upptime <https://github.com/upptime/upptime>
