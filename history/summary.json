@@ -22,17 +22,17 @@
     "url": "https://api.work.sista.ai/api/server-info/",
     "icon": "https://work.sista.ai/global-assets/logo/sista-logo.png",
     "slug": "api",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 519,
-    "timeDay": 519,
-    "timeWeek": 519,
-    "timeMonth": 519,
-    "timeYear": 519,
+    "time": 1656,
+    "timeDay": 1656,
+    "timeWeek": 1656,
+    "timeMonth": 1656,
+    "timeYear": 1656,
     "dailyMinutesDown": {}
   }
 ]
