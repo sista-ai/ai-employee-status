@@ -1,0 +1,52 @@
+owner: sista-ai
+repo: ai-employee-status
+user-agent: sista-ai
+
+sites:
+  - name: Platform
+    url: https://work.sista.ai
+    icon: https://work.sista.ai/global-assets/logo/sista-logo.png
+
+  - name: API
+    url: https://api.work.sista.ai/api/server-info/
+    icon: https://work.sista.ai/global-assets/logo/sista-logo.png
+
+assignees:
+  - Mahmoudz
+
+status-website:
+  cname: status.sista.ai
+  name: Sista AI Status
+  theme: dark
+  css: "body { --body-background-color: #1e242e; --card-background-color: #262d38; } .nav { background-color: #1e242e; border-bottom-color: #3d4654; } a { color: #a3b5ff; } svg path[fill] { fill: #5a6cf6 !important; } svg path[stroke] { stroke: #5a6cf6 !important; } svg path[fill-opacity] { fill: #5a6cf6 !important; }"
+  logoUrl: https://work.sista.ai/global-assets/logo/sista-logo.png
+  favicon: https://work.sista.ai/global-assets/logo/sista-logo.png
+  navbar:
+    - title: Status
+      href: /
+    - title: Platform
+      href: https://work.sista.ai
+    - title: Support
+      href: https://work.sista.ai/en/support
+  introTitle: "**Sista AI** System Status"
+  introMessage: Real-time monitoring of Sista AI services. If you are experiencing issues, please check below for current status and incident reports.
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "*/10 * * * *"
+  uptime: "*/10 * * * *"
+
+notifications:
+  - type: email
+    to: admin@sista.ai
+
+i18n:
+  activeIncidents: Active Incidents
+  allSystemsOperational: All Systems Operational
+  incidentReport: "Incident Report for {0}"
+  pastIncidents: Past Incidents
+  footer: " "
