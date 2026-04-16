@@ -1,7 +1,7 @@
 url: https://work.sista.ai
-status: up
-code: 200
-responseTime: 637
-lastUpdated: 2026-04-16T22:51:41.438Z
+status: down
+code: 503
+responseTime: 348
+lastUpdated: 2026-04-16T23:42:14.470Z
 startTime: 2026-04-15T12:00:00.000Z
 generator: Upptime <https://github.com/upptime/upptime>
