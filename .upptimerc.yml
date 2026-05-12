@@ -3,33 +3,33 @@ repo: ai-employee-status
 user-agent: sista-ai
 
 sites:
-  - name: Platform
-    url: https://work.sista.ai
-    icon: https://work.sista.ai/global-assets/logo/sista-logo.png
+  - name: Sistava
+    url: https://sistava.com
+    icon: https://sistava.com/global-assets/logo/sistava-logo.png
 
-  - name: API
-    url: https://api.work.sista.ai/api/server-info/
-    icon: https://work.sista.ai/global-assets/logo/sista-logo.png
+  - name: Sistava API
+    url: https://api.sistava.com/api/server-info/
+    icon: https://sistava.com/global-assets/logo/sistava-logo.png
 
 assignees:
   - Mahmoudz
 
 status-website:
   cname: status.sista.ai
-  name: Sista AI Status
+  name: Sistava Status
   theme: dark
   css: "body { --body-background-color: #1e242e; --card-background-color: #262d38; } .nav { background-color: #1e242e; border-bottom-color: #3d4654; } a { color: #a3b5ff; } svg path[fill] { fill: #5a6cf6 !important; } svg path[stroke] { stroke: #5a6cf6 !important; } svg path[fill-opacity] { fill: #5a6cf6 !important; }"
-  logoUrl: https://work.sista.ai/global-assets/logo/sista-logo.png
-  favicon: https://work.sista.ai/global-assets/logo/sista-logo.png
+  logoUrl: https://sistava.com/global-assets/logo/sistava-logo.png
+  favicon: https://sistava.com/global-assets/logo/sistava-logo.png
   navbar:
     - title: Status
       href: /
-    - title: Platform
-      href: https://work.sista.ai
+    - title: Sistava
+      href: https://sistava.com
     - title: Support
-      href: https://work.sista.ai/en/support
-  introTitle: "**Sista AI** System Status"
-  introMessage: Real-time monitoring of Sista AI services. If you are experiencing issues, please check below for current status and incident reports.
+      href: https://sistava.com/en/support
+  introTitle: "**Sistava** System Status"
+  introMessage: Real-time monitoring of Sistava services. If you are experiencing issues, please check below for current status and incident reports.
 
 workflowSchedule:
   graphs: "0 0 * * *"
@@ -49,4 +49,9 @@ i18n:
   allSystemsOperational: All Systems Operational
   incidentReport: "Incident Report for {0}"
   pastIncidents: Past Incidents
-  footer: " "
+  # Footer credit — keeps the legal-entity context visible at the bottom of
+  # the public status page for anyone investigating the company behind
+  # Sistava. Product brand surfaces everywhere else; SISTA AI surfaces only
+  # in legal/copyright contexts (here, in the webapp footer, and on legal
+  # pages).
+  footer: "Sistava is operated by SISTA AI (KvK 90724933, NL)."
