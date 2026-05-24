@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Sistava",
+    "url": "https://sistava.com",
+    "icon": "https://sistava.com/global-assets/logo/sistava-logo.png",
+    "slug": "sistava",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 940,
+    "timeDay": 940,
+    "timeWeek": 940,
+    "timeMonth": 940,
+    "timeYear": 940,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Sistava API",
+    "url": "https://api.sistava.com/api/server-info/",
+    "icon": "https://sistava.com/global-assets/logo/sistava-logo.png",
+    "slug": "sistava-api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 542,
+    "timeDay": 542,
+    "timeWeek": 542,
+    "timeMonth": 542,
+    "timeYear": 542,
+    "dailyMinutesDown": {}
+  }
+]
