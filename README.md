@@ -6,8 +6,8 @@ Live at [status.sista.ai](https://status.sista.ai)
 
 ## Monitored Endpoints
 
-| Service             | URL                                          |
-| ------------------- | -------------------------------------------- |
+| Service             | URL                                        |
+| ------------------- | ------------------------------------------ |
 | Platform (frontend) | `https://sistava.com`                      |
 | API (backend)       | `https://api.sistava.com/api/server-info/` |
-| Website             | `https://www.sista.ai`                       |
+| Website             | `https://www.sista.ai`                     |
