@@ -12,26 +12,26 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.41.0
+      - uses: upptime/uptime-monitor@v1.43.0
         with:
           command: uptime
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.41.0
+      - uses: upptime/uptime-monitor@v1.43.0
         with:
           command: readme
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.41.0
+      - uses: upptime/uptime-monitor@v1.43.0
         with:
           command: site
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.41.0
+      - uses: upptime/uptime-monitor@v1.43.0
         with:
           command: graphs
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.41.0
+      - uses: upptime/uptime-monitor@v1.43.0
         with:
           command: response-time
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.41.0
+      - uses: upptime/uptime-monitor@v1.43.0
         with:
           command: summary

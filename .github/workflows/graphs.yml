@@ -11,6 +11,6 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.41.0
+      - uses: upptime/uptime-monitor@v1.43.0
         with:
           command: graphs
