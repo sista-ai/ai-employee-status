@@ -1,13 +1,7 @@
 url: https://api.sistava.com/api/server-info/
 status: up
 code: 200
-<<<<<<< HEAD
-responseTime: 542
-lastUpdated: 2026-05-24T21:07:12.100Z
-startTime: 2026-05-24T21:07:11.554Z
-=======
-responseTime: 436
-lastUpdated: 2026-05-24T06:26:29.126Z
-startTime: 2026-05-12T03:45:07.185Z
->>>>>>> 2238e64 (restore: uptime history files from upptime bot (post force-push recovery))
+responseTime: 518
+lastUpdated: 2026-06-17T00:17:59.529Z
+startTime: 2026-05-24T21:08:01.512Z
 generator: Upptime <https://github.com/upptime/upptime>
