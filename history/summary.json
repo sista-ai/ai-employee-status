@@ -22,17 +22,17 @@
     "url": "https://api.sistava.com/api/server-info/",
     "icon": "https://sistava.com/global-assets/logo/sistava-logo.png",
     "slug": "sistava-api",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 639,
-    "timeDay": 591,
-    "timeWeek": 681,
-    "timeMonth": 705,
-    "timeYear": 639,
+    "time": 640,
+    "timeDay": 640,
+    "timeWeek": 686,
+    "timeMonth": 706,
+    "timeYear": 640,
     "dailyMinutesDown": {}
   }
 ]
