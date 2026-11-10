@@ -1,7 +1,7 @@
 url: https://api.sistava.com/api/server-info/
-status: up
-code: 200
-responseTime: 634
-lastUpdated: 2026-11-10T04:29:59.147Z
+status: down
+code: 503
+responseTime: 723
+lastUpdated: 2026-11-10T07:56:05.322Z
 startTime: 2026-05-24T21:08:01.512Z
 generator: Upptime <https://github.com/upptime/upptime>
